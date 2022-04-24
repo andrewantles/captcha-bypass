@@ -31,7 +31,8 @@ def solve_captcha():
 
 	return post, r.cookies
 
-
+# In this demo, userIDs are strings of numbers and this counter represents 
+# the last two numbers of the userID, checking 11 userIDs.
 counter = 10
 
 while counter >= 0:
